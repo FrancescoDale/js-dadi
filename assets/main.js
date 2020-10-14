@@ -12,6 +12,10 @@ document.getElementById('shot1').innerHTML = die1;
 
 //giocatore 2 lancia il dado
 
-die1 = Math.round(Math.random() * (dieMax- dieMin));
+die2 = Math.round(Math.random() * (dieMax- dieMin));
 
-document.getElementById('shot2').innerHTML = die1;
+document.getElementById('shot2').innerHTML = die2;
+
+// confronto
+
+if
