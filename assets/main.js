@@ -6,13 +6,13 @@ var dieMax = 6;
 
 // giocatore 1 lancia il dado
 
-die1 = Math.round(Math.random() * (dieMax- dieMin));
+die1 = Math.round(Math.random() * (dieMax- dieMin)) + dieMin;
 
 document.getElementById('shot1').innerHTML = die1;
 
 //giocatore 2 lancia il dado
 
-die2 = Math.round(Math.random() * (dieMax- dieMin));
+die2 = Math.round(Math.random() * (dieMax- dieMin))+ dieMin;
 
 document.getElementById('shot2').innerHTML = die2;
 
@@ -22,8 +22,8 @@ if (die1 == die2) {
     document.getElementById('winner').innerHTML = 'pareggio';
 }
 else if (die1 > die2) {
-    document.getElementById('winner').innerHTML = 'giocatore 1 vince';
+    document.getElementById('winner').innerHTML = 'giocatore 1';
 }
 else {
-    document.getElementById('winner').innerHTML = 'giocatore 2 vince';
+    document.getElementById('winner').innerHTML = 'giocatore 2';
 }
