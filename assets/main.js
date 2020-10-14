@@ -17,3 +17,13 @@ die2 = Math.round(Math.random() * (dieMax- dieMin));
 document.getElementById('shot2').innerHTML = die2;
 
 // confronto
+
+if (die1 == die2) {
+    document.getElementById('winner').innerHTML = 'pareggio';
+}
+else if (die1 > die2) {
+    document.getElementById('winner').innerHTML = 'giocatore 1 vince';
+}
+else {
+    document.getElementById('winner').innerHTML = 'giocatore 2 vince';
+}
