@@ -9,3 +9,9 @@ var dieMax = 6;
 die1 = Math.round(Math.random() * (dieMax- dieMin));
 
 document.getElementById('shot1').innerHTML = die1;
+
+//giocatore 2 lancia il dado
+
+die1 = Math.round(Math.random() * (dieMax- dieMin));
+
+document.getElementById('shot2').innerHTML = die1;
