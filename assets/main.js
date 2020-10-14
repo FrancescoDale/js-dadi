@@ -17,5 +17,3 @@ die2 = Math.round(Math.random() * (dieMax- dieMin));
 document.getElementById('shot2').innerHTML = die2;
 
 // confronto
-
-if
